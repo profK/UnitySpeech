@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="9" result="Passed" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.0188795">
+  <test-suite type="TestSuite" id="1000" name="UnitySpeech" fullname="UnitySpeech" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.018880" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1011" name="com.npctts.unity.editmode.tests.dll" fullname="/Users/jeffreykesselman/Documents/projects/UnitySpeech/Library/ScriptAssemblies/com.npctts.unity.editmode.tests.dll" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.015835" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="8641" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1012" name="NpcTts" fullname="NpcTts" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.015601" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1013" name="Tests" fullname="NpcTts.Tests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.015357" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1014" name="EditMode" fullname="NpcTts.Tests.EditMode" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.015124" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="ProtocolTests" fullname="NpcTts.Tests.EditMode.ProtocolTests" classname="NpcTts.Tests.EditMode.ProtocolTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.014553" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1004" name="EndRecord_Roundtrip" fullname="NpcTts.Tests.EditMode.ProtocolTests.EndRecord_Roundtrip" methodname="EndRecord_Roundtrip" classname="NpcTts.Tests.EditMode.ProtocolTests" runstate="Runnable" seed="1377106314" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.005392" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1005" name="ErrorRecord_Roundtrip" fullname="NpcTts.Tests.EditMode.ProtocolTests.ErrorRecord_Roundtrip" methodname="ErrorRecord_Roundtrip" classname="NpcTts.Tests.EditMode.ProtocolTests" runstate="Runnable" seed="131675854" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.000178" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1007" name="MultipleRecordsOneRead" fullname="NpcTts.Tests.EditMode.ProtocolTests.MultipleRecordsOneRead" methodname="MultipleRecordsOneRead" classname="NpcTts.Tests.EditMode.ProtocolTests" runstate="Runnable" seed="616954766" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.000302" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1008" name="OversizedRecordRejected" fullname="NpcTts.Tests.EditMode.ProtocolTests.OversizedRecordRejected" methodname="OversizedRecordRejected" classname="NpcTts.Tests.EditMode.ProtocolTests" runstate="Runnable" seed="1076862182" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.000057" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1009" name="Parser_HandlesCompleteStream" fullname="NpcTts.Tests.EditMode.ProtocolTests.Parser_HandlesCompleteStream" methodname="Parser_HandlesCompleteStream" classname="NpcTts.Tests.EditMode.ProtocolTests" runstate="Runnable" seed="800631076" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.001662" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1010" name="Parser_HandlesErrorRecord" fullname="NpcTts.Tests.EditMode.ProtocolTests.Parser_HandlesErrorRecord" methodname="Parser_HandlesErrorRecord" classname="NpcTts.Tests.EditMode.ProtocolTests" runstate="Runnable" seed="654963715" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.000190" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1003" name="PcmRecord_Roundtrip" fullname="NpcTts.Tests.EditMode.ProtocolTests.PcmRecord_Roundtrip" methodname="PcmRecord_Roundtrip" classname="NpcTts.Tests.EditMode.ProtocolTests" runstate="Runnable" seed="1443603250" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.000074" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1006" name="SplitHeaderAcrossReads" fullname="NpcTts.Tests.EditMode.ProtocolTests.SplitHeaderAcrossReads" methodname="SplitHeaderAcrossReads" classname="NpcTts.Tests.EditMode.ProtocolTests" runstate="Runnable" seed="1531290294" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.000123" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1002" name="StartRecord_Roundtrip" fullname="NpcTts.Tests.EditMode.ProtocolTests.StartRecord_Roundtrip" methodname="StartRecord_Roundtrip" classname="NpcTts.Tests.EditMode.ProtocolTests" runstate="Runnable" seed="342581289" result="Passed" start-time="2026-11-13 01:04:51Z" end-time="2026-11-13 01:04:51Z" duration="0.000059" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: /Users/jeffreykesselman/Library/Application Support/DefaultCompany/UnitySpeech/TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

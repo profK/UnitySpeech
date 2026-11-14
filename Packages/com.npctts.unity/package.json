@@ -1,0 +1,19 @@
+{
+  "name": "com.npctts.unity",
+  "displayName": "NPC TTS",
+  "version": "0.1.0",
+  "description": "Qwen3-TTS speech synthesis and spatial playback for NPCs",
+  "unity": "6000.3",
+  "unityRelease": "27f1",
+  "dependencies": {
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Dwarf NPC Demo",
+      "description": "Dwarf NPC with spatial TTS playback",
+      "path": "Samples~/DwarfDemo"
+    }
+  ]
+}

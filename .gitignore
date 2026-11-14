@@ -112,3 +112,13 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# ── Worker (Python TTS service) ──
+Worker/.venv/
+Worker/models/
+Worker/*.cache/
+Worker/__pycache__/
+Worker/**/*.pyc
+Worker/.pytest_cache/
+Worker/voices/*.wav
+Worker/voices/manifest.json.tmp

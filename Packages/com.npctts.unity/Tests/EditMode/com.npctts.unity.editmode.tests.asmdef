@@ -1,0 +1,19 @@
+{
+    "name": "com.npctts.unity.editmode.tests",
+    "rootNamespace": "NpcTts.Tests.EditMode",
+    "references": [
+        "com.npctts.unity",
+        "com.unity.test-framework"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "noEngineReferences": false,
+    "testEnabled": true
+}

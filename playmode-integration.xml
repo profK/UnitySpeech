@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="22" result="Failed(Child)" total="22" passed="16" failed="6" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-13 00:39:16Z" end-time="2026-11-13 00:39:27Z" duration="11.0006289">
+  <test-suite type="TestSuite" id="1035" name="UnitySpeech" fullname="UnitySpeech" runstate="Runnable" testcasecount="22" result="Failed" site="Child" start-time="2026-11-13 00:39:16Z" end-time="2026-11-13 00:39:27Z" duration="11.000629" total="22" passed="16" failed="6" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1027" name="com.npctts.unity.playmode.tests.dll" fullname="/Users/jeffreykesselman/Documents/projects/UnitySpeech/Library/ScriptAssemblies/com.npctts.unity.playmode.tests.dll" runstate="Runnable" testcasecount="22" result="Failed" site="Child" start-time="2026-11-13 00:39:16Z" end-time="2026-11-13 00:39:27Z" duration="10.996288" total="22" passed="16" failed="6" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="2534" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1028" name="NpcTts" fullname="NpcTts" runstate="Runnable" testcasecount="22" result="Failed" site="Child" start-time="2026-11-13 00:39:16Z" end-time="2026-11-13 00:39:27Z" duration="10.995950" total="22" passed="16" failed="6" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1029" name="Tests" fullname="NpcTts.Tests" runstate="Runnable" testcasecount="22" result="Failed" site="Child" start-time="2026-11-13 00:39:16Z" end-time="2026-11-13 00:39:27Z" duration="10.995724" total="22" passed="16" failed="6" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1030" name="Integration" fullname="NpcTts.Tests.Integration" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-11-13 00:39:16Z" end-time="2026-11-13 00:39:27Z" duration="10.979804" total="7" passed="1" failed="6" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1001" name="IntegrationTests" fullname="NpcTts.Tests.Integration.IntegrationTests" classname="NpcTts.Tests.Integration.IntegrationTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-11-13 00:39:16Z" end-time="2026-11-13 00:39:27Z" duration="10.979093" total="7" passed="1" failed="6" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <output><![CDATA[[IntegrationTests] Worker is ready on port 8181
+]]></output>
+              <test-case id="1002" name="HealthCheck_ShouldSucceed" fullname="NpcTts.Tests.Integration.IntegrationTests.HealthCheck_ShouldSucceed" methodname="HealthCheck_ShouldSucceed" classname="NpcTts.Tests.Integration.IntegrationTests" runstate="Runnable" seed="1915714914" result="Failed" start-time="2026-11-13 00:39:16Z" end-time="2026-11-13 00:39:26Z" duration="10.048936" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Worker should be reachable
+  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[at NpcTts.Tests.Integration.IntegrationTests.HealthCheck_ShouldSucceed () [0x00088] in ./Packages/com.npctts.unity/Tests/PlayMode/IntegrationTests.cs:166
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1003" name="Speak_HelloWorld_ShouldSucceed" fullname="NpcTts.Tests.Integration.IntegrationTests.Speak_HelloWorld_ShouldSucceed" methodname="Speak_HelloWorld_ShouldSucceed" classname="NpcTts.Tests.Integration.IntegrationTests" runstate="Runnable" seed="540143191" result="Failed" start-time="2026-11-13 00:39:26Z" end-time="2026-11-13 00:39:26Z" duration="0.054577" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Speech should complete successfully with worker running
+  Expected: Finished
+  But was:  Failed
+]]></message>
+                  <stack-trace><![CDATA[at NpcTts.Tests.Integration.IntegrationTests.Speak_HelloWorld_ShouldSucceed () [0x00084] in ./Packages/com.npctts.unity/Tests/PlayMode/IntegrationTests.cs:187
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[[NpcTts] Worker unavailable: disconnected
+]]></output>
+              </test-case>
+              <test-case id="1005" name="Speak_Japanese_ShouldWork" fullname="NpcTts.Tests.Integration.IntegrationTests.Speak_Japanese_ShouldWork" methodname="Speak_Japanese_ShouldWork" classname="NpcTts.Tests.Integration.IntegrationTests" runstate="Runnable" seed="541017138" result="Failed" start-time="2026-11-13 00:39:26Z" end-time="2026-11-13 00:39:26Z" duration="0.051778" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Japanese speech should complete successfully
+  Expected: Finished
+  But was:  Failed
+]]></message>
+                  <stack-trace><![CDATA[at NpcTts.Tests.Integration.IntegrationTests.Speak_Japanese_ShouldWork () [0x00070] in ./Packages/com.npctts.unity/Tests/PlayMode/IntegrationTests.cs:232
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[[NpcTts] Worker unavailable: disconnected
+]]></output>
+              </test-case>
+              <test-case id="1004" name="Speak_LongText_ShouldComplete" fullname="NpcTts.Tests.Integration.IntegrationTests.Speak_LongText_ShouldComplete" methodname="Speak_LongText_ShouldComplete" classname="NpcTts.Tests.Integration.IntegrationTests" runstate="Runnable" seed="637664192" result="Failed" start-time="2026-11-13 00:39:26Z" end-time="2026-11-13 00:39:26Z" duration="0.051736" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Long speech should complete successfully
+  Expected: Finished
+  But was:  Failed
+]]></message>
+                  <stack-trace><![CDATA[at NpcTts.Tests.Integration.IntegrationTests.Speak_LongText_ShouldComplete () [0x0008c] in ./Packages/com.npctts.unity/Tests/PlayMode/IntegrationTests.cs:212
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[[NpcTts] Worker unavailable: disconnected
+]]></output>
+              </test-case>
+              <test-case id="1006" name="Speak_MultipleUtterances_ShouldQueue" fullname="NpcTts.Tests.Integration.IntegrationTests.Speak_MultipleUtterances_ShouldQueue" methodname="Speak_MultipleUtterances_ShouldQueue" classname="NpcTts.Tests.Integration.IntegrationTests" runstate="Runnable" seed="1213005734" result="Failed" start-time="2026-11-13 00:39:26Z" end-time="2026-11-13 00:39:26Z" duration="0.103006" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  First utterance should finish
+  Expected: Finished
+  But was:  Failed
+]]></message>
+                  <stack-trace><![CDATA[at NpcTts.Tests.Integration.IntegrationTests.Speak_MultipleUtterances_ShouldQueue () [0x000b3] in ./Packages/com.npctts.unity/Tests/PlayMode/IntegrationTests.cs:254
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[[NpcTts] Worker unavailable: disconnected
+[NpcTts] Worker unavailable: disconnected
+]]></output>
+              </test-case>
+              <test-case id="1007" name="Speak_ThenCancel_ShouldStop" fullname="NpcTts.Tests.Integration.IntegrationTests.Speak_ThenCancel_ShouldStop" methodname="Speak_ThenCancel_ShouldStop" classname="NpcTts.Tests.Integration.IntegrationTests" runstate="Runnable" seed="1545681616" result="Failed" start-time="2026-11-13 00:39:26Z" end-time="2026-11-13 00:39:27Z" duration="0.552617" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Speech should be cancelled or finished (if it was fast enough)
+  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[at NpcTts.Tests.Integration.IntegrationTests.Speak_ThenCancel_ShouldStop () [0x00088] in ./Packages/com.npctts.unity/Tests/PlayMode/IntegrationTests.cs:279
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[[NpcTts] Worker unavailable: disconnected
+]]></output>
+              </test-case>
+              <test-case id="1008" name="Speak_UnknownVoice_ShouldFail" fullname="NpcTts.Tests.Integration.IntegrationTests.Speak_UnknownVoice_ShouldFail" methodname="Speak_UnknownVoice_ShouldFail" classname="NpcTts.Tests.Integration.IntegrationTests" runstate="Runnable" seed="140059798" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.052732" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[NpcTts] Worker unavailable: disconnected
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestSuite" id="1031" name="PlayMode" fullname="NpcTts.Tests.PlayMode" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.015591" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1009" name="AudioPlaybackTests" fullname="NpcTts.Tests.PlayMode.AudioPlaybackTests" classname="NpcTts.Tests.PlayMode.AudioPlaybackTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.008615" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1014" name="PcmBuffer_ToSamples_ConvertsCorrectly" fullname="NpcTts.Tests.PlayMode.AudioPlaybackTests.PcmBuffer_ToSamples_ConvertsCorrectly" methodname="PcmBuffer_ToSamples_ConvertsCorrectly" classname="NpcTts.Tests.PlayMode.AudioPlaybackTests" runstate="Runnable" seed="1149520264" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000447" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1013" name="PcmBuffer_Underrun_FillsWithSilence" fullname="NpcTts.Tests.PlayMode.AudioPlaybackTests.PcmBuffer_Underrun_FillsWithSilence" methodname="PcmBuffer_Underrun_FillsWithSilence" classname="NpcTts.Tests.PlayMode.AudioPlaybackTests" runstate="Runnable" seed="1179464319" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000763" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[NpcTts] PCM buffer: 24000 samples (1s, 46 KB)
+]]></output>
+              </test-case>
+              <test-case id="1015" name="PcmBuffer_WrapAround" fullname="NpcTts.Tests.PlayMode.AudioPlaybackTests.PcmBuffer_WrapAround" methodname="PcmBuffer_WrapAround" classname="NpcTts.Tests.PlayMode.AudioPlaybackTests" runstate="Runnable" seed="1691915451" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000481" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[NpcTts] PCM buffer: 24000 samples (1s, 46 KB)
+]]></output>
+              </test-case>
+              <test-case id="1012" name="PcmBuffer_WritesAndReads" fullname="NpcTts.Tests.PlayMode.AudioPlaybackTests.PcmBuffer_WritesAndReads" methodname="PcmBuffer_WritesAndReads" classname="NpcTts.Tests.PlayMode.AudioPlaybackTests" runstate="Runnable" seed="2146666513" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000365" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[NpcTts] PCM buffer: 48000 samples (2s, 93 KB)
+]]></output>
+              </test-case>
+              <test-case id="1011" name="Speak_EmptyText_FailsGracefully" fullname="NpcTts.Tests.PlayMode.AudioPlaybackTests.Speak_EmptyText_FailsGracefully" methodname="Speak_EmptyText_FailsGracefully" classname="NpcTts.Tests.PlayMode.AudioPlaybackTests" runstate="Runnable" seed="1330114605" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000100" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1010" name="Speak_InvalidNpcId_FailsGracefully" fullname="NpcTts.Tests.PlayMode.AudioPlaybackTests.Speak_InvalidNpcId_FailsGracefully" methodname="Speak_InvalidNpcId_FailsGracefully" classname="NpcTts.Tests.PlayMode.AudioPlaybackTests" runstate="Runnable" seed="61582922" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000068" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1016" name="StopNpc_NoActiveHandles_NoError" fullname="NpcTts.Tests.PlayMode.AudioPlaybackTests.StopNpc_NoActiveHandles_NoError" methodname="StopNpc_NoActiveHandles_NoError" classname="NpcTts.Tests.PlayMode.AudioPlaybackTests" runstate="Runnable" seed="106446766" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000165" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <reason>
+                  <message><![CDATA[]]></message>
+                </reason>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1022" name="SpeechHandleTests" fullname="NpcTts.Tests.PlayMode.SpeechHandleTests" classname="NpcTts.Tests.PlayMode.SpeechHandleTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.001083" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1025" name="Handle_Cancel_IsIdempotent" fullname="NpcTts.Tests.PlayMode.SpeechHandleTests.Handle_Cancel_IsIdempotent" methodname="Handle_Cancel_IsIdempotent" classname="NpcTts.Tests.PlayMode.SpeechHandleTests" runstate="Runnable" seed="1780159250" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000168" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1024" name="Handle_FailedInitialState" fullname="NpcTts.Tests.PlayMode.SpeechHandleTests.Handle_FailedInitialState" methodname="Handle_FailedInitialState" classname="NpcTts.Tests.PlayMode.SpeechHandleTests" runstate="Runnable" seed="71348089" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000076" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1023" name="Handle_InitialState" fullname="NpcTts.Tests.PlayMode.SpeechHandleTests.Handle_InitialState" methodname="Handle_InitialState" classname="NpcTts.Tests.PlayMode.SpeechHandleTests" runstate="Runnable" seed="133429840" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000109" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1026" name="Handle_SetStatus_MarksCompleted" fullname="NpcTts.Tests.PlayMode.SpeechHandleTests.Handle_SetStatus_MarksCompleted" methodname="Handle_SetStatus_MarksCompleted" classname="NpcTts.Tests.PlayMode.SpeechHandleTests" runstate="Runnable" seed="1449707584" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000064" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1017" name="SpeechRequestTests" fullname="NpcTts.Tests.PlayMode.SpeechRequestTests" classname="NpcTts.Tests.PlayMode.SpeechRequestTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.001578" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1020" name="Constructor_CustomLanguage" fullname="NpcTts.Tests.PlayMode.SpeechRequestTests.Constructor_CustomLanguage" methodname="Constructor_CustomLanguage" classname="NpcTts.Tests.PlayMode.SpeechRequestTests" runstate="Runnable" seed="1379365122" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000071" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1019" name="Constructor_DefaultLanguage" fullname="NpcTts.Tests.PlayMode.SpeechRequestTests.Constructor_DefaultLanguage" methodname="Constructor_DefaultLanguage" classname="NpcTts.Tests.PlayMode.SpeechRequestTests" runstate="Runnable" seed="588764020" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000044" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1018" name="Constructor_ValidatesRequiredFields" fullname="NpcTts.Tests.PlayMode.SpeechRequestTests.Constructor_ValidatesRequiredFields" methodname="Constructor_ValidatesRequiredFields" classname="NpcTts.Tests.PlayMode.SpeechRequestTests" runstate="Runnable" seed="1667399665" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000613" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1021" name="Constructor_WithDeadline" fullname="NpcTts.Tests.PlayMode.SpeechRequestTests.Constructor_WithDeadline" methodname="Constructor_WithDeadline" classname="NpcTts.Tests.PlayMode.SpeechRequestTests" runstate="Runnable" seed="818838401" result="Passed" start-time="2026-11-13 00:39:27Z" end-time="2026-11-13 00:39:27Z" duration="0.000338" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: /Users/jeffreykesselman/Library/Application Support/DefaultCompany/UnitySpeech/TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

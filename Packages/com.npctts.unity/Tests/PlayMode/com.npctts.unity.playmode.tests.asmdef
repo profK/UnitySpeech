@@ -1,0 +1,17 @@
+{
+    "name": "com.npctts.unity.playmode.tests",
+    "rootNamespace": "NpcTts.Tests.PlayMode",
+    "references": [
+        "com.npctts.unity",
+        "com.unity.test-framework"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "noEngineReferences": false,
+    "testEnabled": true
+}
